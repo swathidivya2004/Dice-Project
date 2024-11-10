@@ -1,0 +1,88 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+
+  }
+
+  body {
+    background-color: #393E46;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size:5rem;
+    color: black;
+    font-weight: bolder;
+  }
+
+  h2{
+    font: size 100px;;
+  }
+
+  p {
+    font-size: 2rem;
+    color:black;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+
+  }
+
+  body {
+
+    background-image: url('images.jpeg');
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+  }
+
+  .roll-button {
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: hsla(120, 43%, 3%, 0.911);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  /* Hover effect for Roll Dice button */
+  .roll-button:hover {
+    background-color: #45a049;
+  }
+
+  /* Styling for the second button */
+  .reset-button {
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  /* Hover effect for Reset button */
+  .reset-button:hover {
+    background-color:rgb(72, 184, 20);
+  }
